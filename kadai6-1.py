@@ -8,6 +8,9 @@ API_URL  = "https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData"
 params = {
     "appId": APP_ID,
     "statsDataId":"0003224282",
+    "cdCat01":"160",
+    "cdCat02":"110",
+    "cdCat03":"110",
     "metaGetFlg":"Y",
     "cntGetFlg":"N",
     "explanationGetFlg":"Y",
