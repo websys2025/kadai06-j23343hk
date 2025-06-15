@@ -19,4 +19,3 @@ for event in data:
 #イベント名(title)の表示
             title = event["dc:title"][0]["@value"]
             print(title)
-            break
